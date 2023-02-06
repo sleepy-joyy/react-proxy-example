@@ -1,7 +1,8 @@
-body, html {
+body,
+html {
   margin: 0;
-  height:100%; 
-  overflow:hidden;
+  height: 100%;
+  overflow: hidden;
   background-color: rgb(58, 58, 58);
 }
 
@@ -27,7 +28,7 @@ body, html {
   text-shadow: 2px 2px 4px rgb(158, 178, 228);
 }
 
-.form-wrapper{
+.form-wrapper {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -56,7 +57,6 @@ body, html {
   margin: 0.5rem;
 }
 
-
 .input-group {
   display: flex;
   width: 80%;
@@ -80,9 +80,9 @@ body, html {
 }
 
 .input-group input:focus {
-  outline: none !important; 
-  border-color: rgb(203, 218, 255); 
-  box-shadow: 0 0 5px rgb(203, 218, 255); 
+  outline: none !important;
+  border-color: rgb(203, 218, 255);
+  box-shadow: 0 0 5px rgb(203, 218, 255);
 }
 
 button {
@@ -120,7 +120,7 @@ button {
   margin-left: 1rem;
 }
 
-.get-button{
+.get-button {
   float: right;
 }
 
@@ -142,13 +142,13 @@ button {
   overflow: scroll;
 }
 
-
 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   padding: 10px;
   border-bottom: 0.5px solid #444444;
 }
@@ -168,4 +168,21 @@ footer {
   color: rgb(92, 115, 174);
   background-color: #fff;
   bottom: 0;
+}
+
+ul {
+  position: relative;
+  left: 40%;
+  width: 350px;
+  height: 100px;
+  padding: 1rem;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 0.5rem;
+  box-shadow: 0px 7px 2px 2px rgba(42, 42, 42, 0.2);
+}
+
+li {
+  margin: 20px;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
